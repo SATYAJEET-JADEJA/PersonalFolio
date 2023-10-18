@@ -313,16 +313,19 @@ h3 {
 }
 
 /* Original */
-
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
-
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
   height: 170%;
+}
+
+.row img{
+  display: block; /* Ensures proper centering */
+  margin: 0 auto; /* Horizontally center the image */
+}
+
+img{
+    text-align: center; 
 }
 
 #intro.section .container {
