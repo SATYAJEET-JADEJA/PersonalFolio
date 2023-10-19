@@ -325,7 +325,9 @@ h3 {
 }
 
 img{
-    text-align: center; 
+    text-align: center;
+    border: 0;
+    width: 64vw;
 }
 
 #intro.section .container {
